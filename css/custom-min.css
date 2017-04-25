@@ -55,8 +55,8 @@
 	font-family:"Franklin Gothic Bold", "Arial Black", sans-serif;
 }
 .registrate{
-	background-color: #1B1919;
-	color: #1B1919;
+	background-color: #75A633;
+	color: #1B1919 !important;
 	border-radius: 5px;
 	font-size: 20px;
 	text-align: center;
@@ -64,10 +64,14 @@
   	height: 30px;
   	width: 150px;
   	display: table;
-  	margin: 18px auto;
+  	font-family: Impact;
+	text-decoration: none;
+	margin: 8px auto;
 }
 .registrate:hover{
-	background: #19F05D;
+	background: #B7ECB9;
+	font-family: Impact;
+	text-decoration: none;
 	color: #000000;
 }
 .imagenesReciclaje:hover{
@@ -93,6 +97,7 @@ label{
 
 input{
 	margin-bottom: 20px;
+	background-color: #4aa52d;
 	width: 100%;
 	padding: 10px;
 	box-sizing: border-box;
@@ -100,25 +105,41 @@ input{
 }
 
 input:focus{
-	border: 1px solid #95C0ED;
+	border: 1px solid #4aa52d;
 }
 
 input[type="submit"]{
-	margin-bottom: 0px;
-	background: #12907F;
-	color:#fff;
-	border: none;
-}
+            margin-bottom: 0px;
+            background: #0e5223;
+            color:#fff;
+            border: none;
+        }
 input[type="submit"]:hover{
-	background: #10A8AB;
-	cursor: pointer;
+            background: #57bf77;
+            cursor: pointer;
 }
-.imagenPie{
-	margin-top: 50%;
-	margin:25%;
-
+.frase{
+	text-align: justify;
+	color: #ffffff;
+	padding: 30px;
+	margin: 50px;
+	font-family: 'VT323', monospace;
+	font-size: 20px;
+	border: #ffffff double 5px;
 }
 /*aumente******************************************************************/
+.x_panel {
+    width: 100%;
+    padding: 10px 17px;
+    display: inline-block;
+    background: #fff;
+    border: 3px dotted #75A633;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    opacity: 1;
+    transition: all .2s ease;
+}
 .default_color_text{
 	color:#75A633 !important
 }
@@ -175,10 +196,11 @@ input[type="submit"]:hover{
 	display:block
 }
 .card-content a{
-	color:#75A633
+	color:#ffffff;
 }
 .card-content a:hover{
-	color:#75A633
+	text-decoration: none;
+	color:#0FFF05;
 }
 #work,#team{
 	background:rgb(247,247,247)
@@ -195,6 +217,7 @@ nav ul a{
 	padding:0px 15px
 }
 nav ul a:hover{
+	text-decoration: none;
 	font-size:1.2rem;
 	color:#FFF;
 	letter-spacing:2px;

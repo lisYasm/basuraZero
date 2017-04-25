@@ -1,124 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
-    <title>BASURA ZERO</title>
-
-    <!-- CSS  -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/full-slider.css" rel="stylesheet">
-	<link href="css/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="css/custom-min.css" type="text/css" rel="stylesheet" >
-	
-	<link rel="stylesheet" href="css/light.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
-    <style>
-        .slider-wrapper{
-            width: 100%;
-			height: 100%;
-            /*margin: 0px auto;*/
-        }
-    </style>
-</head>
-<body id="top" class="scrollspy">
-
-
-<!--Navigation-->
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper">
-            
-            <a href="#" id="logo-container" class="brand-logo"><img src="img/logo.png" width="55px" height="55px"></a>
-
-                <ul class="right hide-on-med-and-down">
-
-                    <li><a href="#informacion">Informaci&oacuten</a></li>
-                    <li><a href="#galeria">Galer&iacutea</a></li>
-                    <li><a href="#evento">Evento</a></li>
-                    <li><a href="#puntoAcopio">Puntos de Acopio</a></li>
-                    <li><a href="#usuarios">Usuarios</a></li>
-                    <li><a href="#registro">Ingresar</a></li>
-                </ul>
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#informacion">Informaci&oacuten</a></li>
-                    <li><a href="#galeria">Galer&iacutea</a></li>
-                    <li><a href="#evento">Evento</a></li>
-                    <li><a href="#puntoAcopio">Puntos de Acopio</a></li>
-                    <li><a href="#usuario">Usuarios</a></li>
-                    <li><a href="#registro">Ingresar</a></li>
-                </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
-        </div>
-    </nav>
-</div>
-
-<!--VIDEO-->
-<header id="myCarousel" class="carousel slide">
-	 	<!-- INDICADORES -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
-			<li data-target="#myCarousel" data-slide-to="3"></li>
-			<li data-target="#myCarousel" data-slide-to="4"></li>
-			<li data-target="#myCarousel" data-slide-to="5"></li>
-		</ol>
-
-	 <!-- SLIDES -->
-	 <div class="carousel-inner">
-		<div class="item active">
-			<!-- PARA EL PRIMER SLIDE-->
-			<div class="fill" style="background-image:url(img/quienesSomos.png);"></div>  
-			<div class="letra">
-                    <h2></h2>
-            </div>
-		</div>
-		
-		<div class="item">
-			<!-- PARA EL TERCER SLIDE -->
-			<div class="fill" style="background-image:url(img/DENUNCIA.png);"></div>
-			<div class="letra">
-                    <h2></h2>
-            </div>
-			    
-		</div>
-		<div class="item">
-			<!-- PARA EL CUARTO SLIDE -->
-			<div class="fill" style="background-image:url(img/PUNTOS.png);"></div>
-			<div class="letra">
-                    <h2></h2>
-            </div>   
-		</div>
-		<div class="item">
-			<!-- PARA EL QUINTO SLIDE -->
-			<div class="fill" style="background-image:url(img/c3.jpg);"></div>
-			<div class="letra">
-                    <h2></h2>
-            </div>  
-		</div>  
-		<div class="item">
-			<!-- PARA EL SEXTO SLIDE -->
-			<div class="fill" style="background-image:url(img/c5.jpeg);"></div>
-			<div class="letra">
-                    <h2></h2>
-            </div>  
-		</div> 
-		
-	</div>
-		<!-- Controles -->
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-		   <span id="flecha" class="icon-prev"></span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" data-slide="next">
-		   <span id="flecha" class="icon-next"></span>
-		</a>
-</header>
-
-<!--INFORMACION-->
+<?php
+	include("cabeceraIndex.php");
+?>
+	<!--INFORMACION-->
 <div id="informacion" class="section scrollspy">
     <div class="container">
         <div class="row">
@@ -179,10 +62,10 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4"><h5>Ratoncita_31 dijo:</h5><i class="mdi-navigation-close right"></i></span>
-                        <p>MI QUEJA ES LA SIGUIENTE, VAN 3 DIAS QUE EL CARRO BASURERO NO PASA POR LA AVENIDA BUENOS AIRES. 
+                        <h5>MI QUEJA ES LA SIGUIENTE, VAN 3 DIAS QUE EL CARRO BASURERO NO PASA POR LA AVENIDA BUENOS AIRES. 
                         POR FAVOR TOMAR NOTA DE ELLO. 
                         
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -198,7 +81,7 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4"> <h5>Jose_45 dijo: </h5><i class="mdi-navigation-close right"></i></span>
-                        <p>Hoy en la mañana soprendi a esta tersona botando basura en un lugar que no debia, su escusa fue que otras personas tambien lo hicieron</p>
+                        <h5>Hoy en la mañana soprendi a esta tersona botando basura en un lugar que no debia, su escusa fue que otras personas tambien lo hicieron</h5>
                     </div>
                 </div>
             </div>
@@ -213,7 +96,7 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4"><h5>Killer dijo: </h5><i class="mdi-navigation-close right"></i></span>
-                        <p>Mi queja es la siguiente el carro basurero no pasa por esta zona ya hace una semana, les pediria tomar cartas en el asunto.</p>
+                        <h5>Mi queja es la siguiente el carro basurero no pasa por esta zona ya hace una semana, les pediria tomar cartas en el asunto.</h5>
                     </div>
                 </div>
             </div>
@@ -232,7 +115,7 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4"><h5>Verdugo dijo: </h5><i class="mdi-navigation-close right"></i></span>
-                        <p>En mi barrio nesecitamos con urgencia un contenedor en la zona de pampahasi bajo mercado 10 de enero.</p>
+                        <h5>En mi barrio nesecitamos con urgencia un contenedor en la zona de pampahasi bajo mercado 10 de enero.</h5>
                     </div>
                 </div>
             </div>
@@ -247,7 +130,7 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4"><h5>HR dijo: </h5><i class="mdi-navigation-close right"></i></span>
-                        <p>En la zona de Villa Copacabana nesecitamos con suma urgencia un contenedor, ya que le carro basurero no pasa con frecuencia por esat zona.</p>
+                        <h5>En la zona de Villa Copacabana nesecitamos con suma urgencia un contenedor, ya que le carro basurero no pasa con frecuencia por esat zona.</h5>
                     </div>
                 </div>
             </div>
@@ -261,8 +144,8 @@
                         <p><a href="#registro">Registrate para ver mas</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><h5>Fernado dijo: </h5><i class="mdi-navigation-close right"></i></span>
-                        <p>Solocitamos que el carro basurero pase con fraquencia por la zona 23 de marzo de Valle Hermoso, y la reposicion de contendedores.</p>
+                        <span class="card-title grey-text text-darken-4"><h5>Fernando dijo: </h5><i class="mdi-navigation-close right"></i></span>
+                        <h5>Solocitamos que el carro basurero pase con fraquencia por la zona 23 de marzo de Valle Hermoso, y la reposicion de contendedores.</h5>
                     </div>
                 </div>
             </div>
@@ -283,38 +166,38 @@
 			</div>
 			<div id="caption1" style="display: none;">
 				<h3>RECOLETRA</h3>
-				<p>ES UN PROGRAMA DE ACOPIO Y RECICLAJE ELECTRONICO, PUEDES TRAER CPU'S, IMPRESORAS, CELULARES..... </p>
+				<h5>ES UN PROGRAMA DE ACOPIO Y RECICLAJE ELECTRONICO, PUEDES TRAER CPU'S, IMPRESORAS, CELULARES..... </h5>
 				
 				<ul>
-					<li>FECHA DEL EVENTO: 21 de Mayo de 2017</li>
-					<li>LUGAR: Calle..... </li>
+					<li><h5>FECHA DEL EVENTO: 21 de Mayo de 2017</h5></li>
+					<li><h5>LUGAR: Calle..... </h5></li>
 				</ul>
 			</div>
 			<div id="caption2" style="display: none;">
 				<h3>TALLER DE RECICLAJE</h3>
-				<p>EN ESTE CURSO APRENDERAS COMO RECICLAR COSAS QUE QUERIAS BOTAR..... </p>
+				<h5>EN ESTE CURSO APRENDERAS COMO RECICLAR COSAS QUE QUERIAS BOTAR..... </h5>
 				
 				<ul>
-					<li>FECHA DEL EVENTO: 30 de Abril de 2017</li>
-					<li>LUGAR: Calle..... </li>
+					<li><h5>FECHA DEL EVENTO: 30 de Abril de 2017</h5></li>
+					<li><h5>LUGAR: Calle..... </h5></li>
 				</ul>
 			</div>
 			<div id="caption3" style="display: none;">
 				<h3>RECOLETRA</h3>
-				<p>ES UN PROGRAMA DE ACOPIO Y RECICLAJE ELECTRONICO, PUEDES TRAER CPU'S, IMPRESORAS, CELULARES..... </p>
+				<h5>ES UN PROGRAMA DE ACOPIO Y RECICLAJE ELECTRONICO, PUEDES TRAER CPU'S, IMPRESORAS, CELULARES..... </h5>
 				
 				<ul>
-					<li>FECHA DEL EVENTO: 21 de Mayo de 2017</li>
-					<li>LUGAR: Calle..... </li>
+					<li><h5>FECHA DEL EVENTO: 21 de Mayo de 2017</h5></li>
+					<li><h5>LUGAR: Calle..... </h5></li>
 				</ul>
 			</div>
 			<div id="caption4" style="display: none;">
 				<h3>TALLER DE RECICLAJE</h3>
-				<p>EN ESTE CURSO APRENDERAS COMO RECICLAR COSAS QUE QUERIAS BOTAR..... </p>
+				<h5>EN ESTE CURSO APRENDERAS COMO RECICLAR COSAS QUE QUERIAS BOTAR..... </h5>
 				
 				<ul>
-					<li>FECHA DEL EVENTO: 30 de Abril de 2017</li>
-					<li>LUGAR: Calle..... </li>
+					<li><h5>FECHA DEL EVENTO: 30 de Abril de 2017</h5></li>
+					<li><h5>LUGAR: Calle..... </h5></li>
 				</ul>
 			</div>
 		</div>
@@ -346,21 +229,17 @@
 		    </div>-->
 	</div>
     <br/>
-    <div class="masInfoEvento">Solo se muestra los 4 eventos m&aacutes recientes</div>
-    <div class="masInfoEvento">PARA M&AacuteS INFORMACI&OacuteN</div>
-	<div class="registrate"><a href="#registro">REGISTRATE</a></div>
+    <div class="masInfoEvento"><h5>Solo se muestra los 4 eventos m&aacutes recientes</h5></div>
+    <div class="masInfoEvento"><h5>PARA M&AacuteS INFORMACI&OacuteN</h5></div>
+	<div><a href="#registro" class="registrate">REGISTRATE</a></div>
 </div>
 
-</div>
 
-<div class="section scrollspy" id="puntoAcopio">
+<div class="section scrollspy" id="mapa">
 	<div class="container">
-		<h2 class="header text_b"> Los puntos de acopio son: </h2>
-        
-		<div id="map" class="x_panel" style="height:530px; ">
-        <img src="img/mapa.PNG" width="1000px">        
+		<h2 class="header text_b"> Lugares de reciclaje y contenedores: </h2>
+       <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1G0kph0drSr84OJZlmbj3dmqf2ms" width="1000" height="600"></iframe>
 	</div>
-
 </div>
 
 
@@ -422,88 +301,6 @@
         </div>
     </div>
 </div>
-
-<!--Footer-->
-<footer id="registro" class="page-footer default_color scrollspy">
-    <div class="container">  
-        <div class="row">
-            <div class="col l6 s12">
-                <form class="col s12" action="contact.php" method="post">                   
-                    <div class="row">
-						<div class="footer-copyright default_color">
-							<h5>Iniciar sesi&oacute;n </h5>
-						</div>
-							<input type="text" id="nick" placeholder="NickName o correo" class="input">                  
-
-							<input type="password" id="password" placeholder="Password" class="input">
-
-							<input type="submit" value="Ingresar" class="input"> 
-                    
-                    <br>
-                    <br>
-                    <br>
-                 	  <div class="opForm" >
-                 	   <a href="#" >Olvide mi contraseña</a><br>
-                 		 <a href="#">Crear una cuenta nueva</a>
-                 	   </div>
-
-                    </div>
-                </form>
-            </div>
-            <div id="imag1" class="col l3 s12">
-                <!--<img class= "imagenPie" src="img/f2.png" width="250px">--> 
-                <img class= "imagenPie" src="img/f3.png" width="300px">   <!--SEGUNDA OPCION DE IMAGEN-->           
-            </div>
-            
- 
-                
-                 
-          
-            
-        </div>
-    </div>
-    <div class="footer-copyright default_color">
-        <div class="container">
-           <!-- Made by <a class="white-text" href="http://materializecss.com/">materializecss</a>-->
-           Hecho para....
-        </div>
-    </div>
-</footer>
-
-
-    <!-- Para el primer slider, el que aparece al iniciar la pagina-->
-    <script src="js/plugin-min.js"></script>
-    <script src="js/custom-min.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-    $('.carousel').carousel({
-        interval: 3000 //cambia la velocidad
-    })
-    </script>
-    <!--Para el segundo slider, que se encuentra en evento-->
-    <script src="js/jquery.min.js" type="text/javascript"></script>
-    <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    $(window).load(function(){
-        $('#slider').nivoSlider({
-            effect: 'fade',
-            slices: 15,
-            boxCols: 8,
-            boxRows: 4,
-            animSpeed: 500,
-            pauseTime: 4000,  //cambia la velocidad
-            startSlide: 0,
-            directionNav: true,
-            controlNav: true,
-            controlNavThumbs: false,
-            pauseOnHover: true,
-            manualAdvance: false,
-            prevText: 'Prev',
-            nextText: 'Next',
-            randomStart: false,
-        });
-    });
-    </script>
-    </body>
-</html>
+<?php
+	include("pieIndex.php");
+?>
