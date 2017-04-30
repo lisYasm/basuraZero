@@ -12,6 +12,7 @@
     <link href="css/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="css/custom-min.css" type="text/css" rel="stylesheet" >
     <link href="css/estiloMenu.css" type="text/css" rel="stylesheet" >
+    <link href="css/estyloP.css" type="text/css" rel="stylesheet" >
     
     <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ranga|Rock+Salt" rel="stylesheet">
@@ -40,9 +41,9 @@
                         
                             <li class="menu1"><a href="#">Publicar</a>
                                 <ul>        
-                                    <li class="menu2"><a href="#">Denuncia</a></li>
-                                    <li class="menu2"><a href="#">Solicitud</a></li>
-                                    <li class="menu2"><a href="#">Evento</a></li>
+                                    <li class="menu2"><a href="denuncia.php">Denuncia</a></li>
+                                    <li class="menu2"><a href="solicitud.php">Solicitud</a></li>
+                                    <li class="menu2"><a href="evento.php">Evento</a></li>
                                 </ul>
                             </li>
                             <li class="menu1"><a href="perfil.php">Nickname</a></li>

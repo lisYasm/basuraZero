@@ -33,7 +33,10 @@
                         <img src="img/ubicacion.jpg" alt="" width=20px><strong>Lugar del evento: </strong> Plaza del bicentenario
                         <br/><br/>
                         <img src="img/personita.png" alt="" width=20px><strong>Organiza: </strong> Direccion de juventud y Direccion de cultura
-                        ASISTIRE
+                        <img class = "botonAsistire" src="img/check.png" alt="" width=20px>
+                        <div class="letraAsistire">
+                          <h5>ASISTIRAS?</h5>
+                        </div>
                       </div>
                       
                     </div>

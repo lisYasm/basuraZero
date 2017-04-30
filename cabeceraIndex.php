@@ -12,13 +12,16 @@
 	<link href="css/full-slider.css" rel="stylesheet">
 	<link href="css/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="css/custom-min.css" type="text/css" rel="stylesheet" >
+    <link href="css/estiloModal.css" type="text/css" rel="stylesheet" >
 	
 	<link rel="stylesheet" href="css/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
     
     <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ranga|Rock+Salt" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">-->
     <style>
         .slider-wrapper{
             width: 100%;

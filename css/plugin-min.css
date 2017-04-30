@@ -805,7 +805,7 @@ ul.staggered-list li{opacity:0}
 @media only screen and (min-width : 601px){.show-on-medium-and-up{display:initial !important;}}
 @media only screen and (max-width : 992px){.show-on-medium-and-down{display:initial !important;}}
 @media only screen and (max-width : 600px){.center-on-small-only{text-align:center;}}
-footer.page-footer{margin-top:20px;background-color:#ee6e73}
+footer.page-footer{margin-top:20px;margin-bottom:0px;background-color:#ee6e73}
 footer.page-footer .footer-copyright{overflow:hidden;height:50px;line-height:50px;color:rgba(255,255,255,0.8);background-color:rgba(51,51,51,0.08)}
 table,th,td{border:none}
 table{width:100%;display:table}

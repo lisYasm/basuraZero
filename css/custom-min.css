@@ -3,9 +3,7 @@
 	background-color:#75A633 !important
 }
 /*aumente******************************************************************/
-.video{
-	width: 100%;
-}
+
 .letra{
 			position: absolute;
 			right: 15%;
@@ -84,6 +82,22 @@
 	height: 50px;
 	font-size: 15px;
 }
+.botonAsistire{
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	margin-left: 45%;
+}
+.botonAsistire:hover{
+	cursor: pointer;
+	border-radius: 100%;
+	width: 70px;
+	height: 70px;
+	margin-left: 45%;
+}
+.letraAsistire{
+	text-align: center;
+}
 /*para el formulario*/
 form{
 	width: 25%;
@@ -119,13 +133,23 @@ input[type="submit"]:hover{
             cursor: pointer;
 }
 .frase{
-	text-align: justify;
-	color: #ffffff;
+	width: 400px;
+	height: 300px;
+	background-image: url(../img/reflexionBN.png);
+	background-color: #F2F2F2;
+	border-radius: 2%;
 	padding: 30px;
 	margin: 50px;
-	font-family: 'VT323', monospace;
-	font-size: 20px;
-	border: #ffffff double 5px;
+	cursor: pointer;
+}
+.frase:hover{
+	width: 400px;
+	height: 300px;
+	background-image: url(../img/reflexionC.png);
+	border-radius: 2%;
+	padding: 30px;
+	margin: 50px;
+	cursor: pointer;
 }
 /*aumente******************************************************************/
 .x_panel {
@@ -386,4 +410,5 @@ nav a.button-collapse{
 }
 footer.page-footer{
 	margin-top:0px !important
+	
 }

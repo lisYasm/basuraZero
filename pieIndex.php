@@ -3,24 +3,37 @@
     <div class="container">  
         <div class="row">
             <div class="col l6 s12">
-                <form class="col s12" action="contact.php" method="post">                   
+                <form class="col s12" action="autentificausuario.php" method="post" name="formu">                   
                     <div class="row">
-						<div class="footer-copyright default_color">
-							<h5>Iniciar sesi&oacute;n </h5>
-						</div>
-							<input type="text" id="nick" placeholder="NickName o correo" class="input">                  
+                        <div class="footer-copyright default_color">
+                            <h5>Iniciar sesi&oacute;n </h5>
+                        </div>
+                            <input type="text" id="nick" placeholder="NickName o correo" class="input" name="correonick" >                  
 
-							<input type="password" id="password" placeholder="Password" class="input">
+                            <input type="password" id="password" placeholder="Password" class="input" name="password">
 
-							<input type="submit" value="INGRESAR" class="input"> 
+                            <input type="submit" value="Ingresar" class="input"> 
                     
                     <br>
                     <br>
                     <br>
                  	<div class="opForm" >
                  	    <h5><a href="#" >¿Olvidaste tu contraseña?</a></h5>
-                        <h5><a href="javascript:abrirPagina()">Crear una cuenta nueva</a><h5>
+                        <h5><a href="#popup" class="popup-link">Crear una cuenta nueva</a></h5>
+    <div class="modal-wrapper" id="popup">
 
+        <div class="popup-contenedor">
+            
+            <form class="col s12" action="#" method="post" name="#">
+                <h4>CREA UNA CUENTA NUEVA</h4>
+                <input class="datosF" type="text" id="nickname" placeholder="Nickname" class="input">
+                <input class="datosF" type="text" id="correo" placeholder="ejemplo@gmail.com" class="input">
+                <input class="datosF" type="password" id="password" placeholder="Password" class="input">
+                <input class="datosF" type="submit" value="REGISTRARSE" class="input"> 
+            </form>
+           <a class="popup-cerrar" href="#">X</a>
+        </div>
+    </div>
                  	   </div>
 
                     </div>
@@ -28,11 +41,9 @@
                 
             </div>
             <div class="col l6 s12">
-                <div class="frase">Registrate en BASURA ZERO, con tu ayuda lograremos un mundo mejor.
-                Al registrarte podras publicar fotos de personas y/o cosas que hacen daño al medio ambiente, podras solicitar
-                contenedores de basura o carros basureros, podras publicar eventos que se realizan en para mejorar el medio
-                ambiente, como ser eventos de reciclaje.
-                </div>        
+                <div class="frase">
+                
+                </div>       
             </div>
             
  
@@ -86,11 +97,6 @@
         });
     });
     </script>
-    <!--script para abrir la ventana emergente-->
-    <script> 
-        function abrirPagina() { 
-        open('crearCuenta.php','','top=150,left=300,width=400,height=400, resizable=false')
-        }    
-    </script> 
+   
     </body>
 </html>
