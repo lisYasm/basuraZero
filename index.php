@@ -57,7 +57,7 @@
                         <img class="activator" src="img/img1.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Usuario: Ratoncita<i class="mdi-navigation-more-vert right"></i></span>
+                        <span class="card-title activator grey-text text-darken-4">Usuario: Lucia<i class="mdi-navigation-more-vert right"></i></span>
                         <p><a href="#registro">Registrate para ver mas</a></p>
                     </div>
                     <div class="card-reveal">
@@ -76,7 +76,7 @@
                         <img class="activator" src="img/img2.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Usuario: Jose_45<i class="mdi-navigation-more-vert right"></i></span>
+                        <span class="card-title activator grey-text text-darken-4">Usuario: Jose<i class="mdi-navigation-more-vert right"></i></span>
                         <p><a href="#registro">Registrate para ver mas</a></p>
                     </div>
                     <div class="card-reveal">
@@ -91,7 +91,7 @@
                         <img class="activator" src="img/img3.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Usuario: Killer<i class="mdi-navigation-more-vert right"></i></span>
+                        <span class="card-title activator grey-text text-darken-4">Usuario: Alejandro<i class="mdi-navigation-more-vert right"></i></span>
                         <p><a href="#registro">Registrate para ver mas</a></p>
                     </div>
                     <div class="card-reveal">
@@ -110,7 +110,7 @@
                         <img class="activator" src="img/img4.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Usuario: Verdugo<i class="mdi-navigation-more-vert right"></i></span>
+                        <span class="card-title activator grey-text text-darken-4">Usuario: Raquel<i class="mdi-navigation-more-vert right"></i></span>
                         <p><a href="#registro">Registrate para ver mas</a></p>
                     </div>
                     <div class="card-reveal">
@@ -125,7 +125,7 @@
                         <img class="activator" src="img/img5.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Usuario: HR<i class="mdi-navigation-more-vert right"></i></span>
+                        <span class="card-title activator grey-text text-darken-4">Usuario: Horacio<i class="mdi-navigation-more-vert right"></i></span>
                         <p><a href="#registro">Registrate para ver mas</a></p>
                     </div>
                     <div class="card-reveal">
@@ -243,7 +243,6 @@
 </div>
 
 
-
 <!--USUARIOS-->
 <div class="section scrollspy" id="usuarios">
     <div class="container">
@@ -255,8 +254,8 @@
                         <img class="activator" src="img/avatar1.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">killer <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">259 publicaciones</a></em></small></span>
+                        <span class="card-title activator grey-text text-darken-4">Roberto <br/>
+                            <small><em><a class="red-text text-darken-1" href="#">0 publicaciones</a></em></small></span>
                     </div>
                 </div>
             </div>
@@ -266,8 +265,8 @@
                         <img class="activator" src="img/avatar2.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">MarioBross<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">205 publicaciones</a></em></small>
+                        <span class="card-title activator grey-text text-darken-4">Ricardo<br/>
+                            <small><em><a class="red-text text-darken-1" href="#">0 publicaciones</a></em></small>
                         </span>
                         
                     </div>
@@ -279,8 +278,8 @@
                         <img class="activator" src="img/avatar3.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">verdugo<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">203 publicaciones</a></em></small></span>
+                        <span class="card-title activator grey-text text-darken-4">Maria<br/>
+                            <small><em><a class="red-text text-darken-1" href="#">0 publicaciones</a></em></small></span>
                         
                     </div>
                 </div>
@@ -291,8 +290,8 @@
                         <img class="activator" src="img/avatar4.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">ratoncita<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">200 publicaciones</a></em></small></span>
+                        <span class="card-title activator grey-text text-darken-4">Abel<br/>
+                            <small><em><a class="red-text text-darken-1" href="#">0 publicaciones</a></em></small></span>
                        
                         
                     </div>

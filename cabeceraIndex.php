@@ -48,7 +48,7 @@
                     <li><a href="#evento">Evento</a></li>
                     <li><a href="#mapa">Mapa</a></li>
                     <li><a href="#usuarios">Usuarios</a></li>
-                    <li><a href="#registro">Iniciar sesi&oacuten</a></li>
+                    <li><a href="usr_admin">Iniciar sesi&oacuten</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#informacion">Informaci&oacuten</a></li>
@@ -56,7 +56,7 @@
                     <li><a href="#evento">Evento</a></li>
                     <li><a href="#mapa">Mapa</a></li>
                     <li><a href="#usuario">Usuarios</a></li>
-                    <li><a href="#registro">Iniciar sesi&oacuten</a></li>
+                    <li><a href="usr_admin">Iniciar sesi&oacuten</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
