@@ -44,6 +44,7 @@ if (isset($_SESSION['idusuario'])){
          <i class="fa fa-chevron-down"></i>
       </button>
       <a class="navbar-brand" href="../">
+      <i><img src="../img/logo3.png" width="30px" height="40px"></i>
       <?php echo SITETITLE; ?> 
       </a>
     </div>

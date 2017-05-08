@@ -56,7 +56,7 @@ if (empty($_GET['perma'])) {
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
          <i class="fa fa-chevron-down"></i>
       </button>
-      <a class="navbar-brand" href="../"><i class="fa fa-clone"></i> <?php echo SITETITLE; ?></a>
+      <a class="navbar-brand" href="../"><i><i><img src="../img/logo3.png" width="30px" height="40px"></i></i> <?php echo SITETITLE; ?></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
